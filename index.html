@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,11 +23,11 @@
 <div class="switch-top-bar">
     <div class="container-fluid p-0">
         <div class="col-12 d-flex justify-content-around">
-            <div class="left p-1">
-                <h1 class="text-center"><i class="bi bi-check-lg"></i> Official</h1>
+            <div class="p-2 text-center flex-fill align-self-center">
+              <i class="d-inline bi-check-circle fs-1 "></i><h1 class="d-inline"> Official</h1>
             </div>
-            <div class="right bg-dark p-1">
-                <h1 class="text-center text-light "> <i class="bi bi-bug"></i> Unofficial</h1>
+            <div class="p-2 text-center bg-dark text-light flex-fill align-self-center">
+              <i class="d-inline bi-bug text-light h1icons fs-1"></i><h1 class="d-inline">  Unofficial</h1>
             </div>
         </div>
     </div>
@@ -34,12 +35,12 @@
 
  <!-- Menu -->     
  
- 
+ <!--
  <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container">
       
       <div class="row">
-        <!-- Tutaj było logo-->
+         Tutaj było logo 
       </div>
       <div class="row">
         <img src="" alt="" class="background-me">
@@ -57,7 +58,42 @@
       </div>
 
     </div>
-    
+-->
+
+    <!-- Navbar -->
+<div class="container bg-image" style="
+      background-image: url="img/businessman-with-arms-crossed-smiling.jpg";
+      weight: 100%;"></div>    
+    <nav class="navbar navbar-expand-md navbar-light py-3 ">
+      <div class="container">
+        <a href="#" class="navbar-brand "><img src="img/logo.svg" class="img-fluid w-75"></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav justify-content-center justify-content-md-end text-center" id="navmenu">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a href="#about" class="nav-link py-1 px-5">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#references" class="nav-link py-1 px-5">References</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link py-1 ps-md-5">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
   </nav>
   <img src="img/businessman-with-arms-crossed-smiling.jpg" alt="" class="background-me w-100">
 
@@ -105,6 +141,5 @@
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
-
 </body>
 </html>
