@@ -1,16 +1,12 @@
 body{
     overflow-x: hidden;
-
+    background-color: #FBFBFB;
 }
 
  /* Official unofficial section*/
 .h1icons{
   font-size: 2rem;
 }
-.shadow{
-  box-shadow: inset 0 5px 5px -5px #494440;
-  }
-
  /* logo navbar section */
 
 .background-img{
